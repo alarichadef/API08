@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Etuville - Accueil</title>
-	<link rel="shortcut icon" href="images/favicon.png">	
+	<link rel="shortcut icon" href="images/favicon.png">
 	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
@@ -16,11 +16,21 @@
 </head>
 <body class="home">
 	<!-- Barre de navigation -->
-	<div class="navbar navbar-inverse navbar-fixed-top col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+	<nav class="navbar navbar-inverse navbar-fixed-top col-xs-12 col-sm-12 col-md-12 col-lg-12" >
 		<div class="container col-xs-offset-4 col-sm-offset-4 col-md-offset-4 col-lg-offset-4">
-			<div class="navbar-collapse collapse">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div id = "navbar" class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="index.html">ACCUEIL</a></li>
+					<li class = "active"><a href="index.html">ACCUEIL</a></li>
 					<li><a href="association.html">L'ASSOCIATION</a></li>
 					<li><a href="index.html#utceenne">L'UTCEENNE</a></li>
 					<li><a href="index.html#gala">LE GALA</a></li>
@@ -29,7 +39,7 @@
 				</ul>
 			</div>
 		</div>
-	</div>
+	</nav>
 	<header id="head" class="secondary"></header>
 	<!-- /Barre de navigation -->
 	<!-- Carrousel d'images -->
@@ -39,21 +49,23 @@
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
 			<a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Progressus HTML5 template"></a>
 		</div>
+
 		<div class="container">
 			<div class="row">
 				<h1 class="lead">DOUBLE CARROUSEL</h1>
 				<p class="tagline">PROGRESSUS: free business bootstrap template by <a href="http://www.gettemplate.com/?utm_source=progressus&amp;utm_medium=template&amp;utm_campaign=progressus">GetTemplate</a></p>
 			</div>
+			<a name="utceenne"></a>
 		</div>
 	</header>
 	<!-- /Carrousel d'images -->
 	<!-- L'UTCéenne -->
 	<div class="container text-center">
-		<a name="utceenne"></a>
 		<br><br>
 		<h2 class="thin">L'Utcéenne</h2>
+		<a name="gala"></a>
 		<p class="text-muted">
-			The difference between involvement and commitment is like an eggs-and-ham breakfast:<br> 
+			The difference between involvement and commitment is like an eggs-and-ham breakfast:<br>
 			the chicken was involved; the pig was committed.
 		</p>
 		<p><a class="btn btn-action btn-lg pull-right" role="button" href="utceenne.html">En savoir plus</a></p>
@@ -61,11 +73,10 @@
 	<!-- /L'UTCéenne -->
 	<!-- Le Gala -->
 	<div class="container text-center">
-		<a name="gala"></a>
 		<br><br>
 		<h2 class="thin">Le Gala</h2>
 		<p class="text-muted">
-			The difference between involvement and commitment is like an eggs-and-ham breakfast:<br> 
+			The difference between involvement and commitment is like an eggs-and-ham breakfast:<br>
 			the chicken was involved; the pig was committed.
 		</p>
 		<p><a class="btn btn-action btn-lg pull-left" role="button" href="gala.html">En savoir plus</a></p>
@@ -143,7 +154,7 @@
 								<!--<a href=""><i class="fa fa-dribbble fa-2"></i></a>-->
 								<!--<a href=""><i class="fa fa-github fa-2"></i></a>-->
 								<a href="https://www.facebook.com/profile.php?id=100010850087126"><i class="fa fa-facebook fa-2"></i></a>
-							</p>	
+							</p>
 						</div>
 					</div>
 					<!-- /Réseaux sociaux -->
