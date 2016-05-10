@@ -5,6 +5,17 @@
 	font-family: "Open sans", Helvetica, Arial;
 	font-weight: 300;
 }
+.myhred{
+height: 5px;
+margin-left: auto;
+margin-right: auto;
+background-color:#FF0066;
+color:#FF0066;
+border: 0 none;
+margin-top: 50px;
+margin-bottom:50px;
+   
+}
 
 #head2 {
 	text-align: center;
