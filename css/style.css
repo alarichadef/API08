@@ -435,6 +435,15 @@ div#sliderdroit figure {
 	animation: 30s slidydroit infinite;
 }
 
+div#sliderdroit, div#sliderdroit{
+  display: inline-block;
+  width: 50%;
+}
+
+div#slidergauche{
+  width: 50%;
+}
+
 /* Triangles images */
 /* Triangles images */
 /* Triangles images */
