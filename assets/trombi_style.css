@@ -55,14 +55,13 @@ h6.description{
     transition: all 0.5s ease-in-out 0s;
 }
 .img-box ul i{
-	font-size: 20px;
-	letter-spacing: 10px;
+	//font-size: 20px;
+	//letter-spacing: 10px;
+	margin: -170%;
+	text-align: center;
 }
 .img-box ul li{
-	width: 30px;
-    height: 30px;
     text-align: center;
-    border: 1px solid #88C425;
     margin: 2px;
     padding: 5px;
 	display: inline-block;
@@ -83,10 +82,10 @@ h6.description{
 }
 .img-box a:hover li{
 	border-color: #fff;
-	color: #88C425;
+    color:rgba(210, 74, 64, 1);	
 }
 .ta{
-    color:#88C425;
+    color:rgba(210, 74, 64, 1);
 }
 a:hover{
     text-decoration:none;
