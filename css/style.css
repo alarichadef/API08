@@ -273,7 +273,12 @@ media_tag_1 {media_subcode:1}
 .navbar-nav a.btn:focus, 
 .navbar-nav a.btn:hover  { border:1px solid rgba(255,255,255,.6); }
 
-.navbar-collapse { border:0 none;  border-top:0 none; box-shadow: none; }
+.navbar-collapse { 
+	border:0 none;
+  	border-top:0 none; 
+  	box-shadow: none; 
+  	margin: auto;
+ }
 media_tag_2 {media_subcode:2}
 
 .navbar-static-top,
