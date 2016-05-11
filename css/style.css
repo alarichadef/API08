@@ -260,7 +260,7 @@ media_tag_1 {media_subcode:1}
     -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px;
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175); box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
 }
-.navbar-nav .dropdown-menu > li > a { color:rgba(255, 255, 255, .7); padding:7px 20px; }
+.navbar-nav .dropdown-menu > li > a {  padding:7px 20px; }
 .navbar-nav .dropdown-menu > li > a:hover,
 .navbar-nav .dropdown-menu > li > a:focus,
 .navbar-nav .dropdown-menu > .active > a:hover{ background: rgba(255, 255, 255, .1); color:white; }
@@ -279,6 +279,11 @@ media_tag_2 {media_subcode:2}
 .navbar-static-top,
 .navbar-fixed-top,
 .navbar-fixed-bottom { border-radius: 0; }
+
+
+.navbar-inverse .navbar-nav>li>a{
+	color: white;
+}
 
 .btn-default, .btn-primary, .btn-success, .btn-action
 .btn-info,    .btn-warning, .btn-danger {
@@ -344,6 +349,7 @@ media_tag_5 {media_subcode:5}
 h1, h2, h3, h4, h5, h6, ul, li, a, div, p, body, input, button, select,label, ul, li, div, section, article, aside, input, button, textarea, select, label {
 	margin: 0px;
 	padding: 0px;
+	color: white;
 }
 
 div#slidergauche {
