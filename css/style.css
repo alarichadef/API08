@@ -381,7 +381,7 @@ div#slidergauche figure img {
 
 div#slidergauche {
 	width: 75%;
-	max-width: 720px;
+	max-width: 3840px;
 	overflow: hidden;
 }
 
@@ -407,11 +407,6 @@ div#slidergauche figure {
 	animation: 30s slidygauche infinite;
 }
 
-div#sliderdroit {
-	width: 100%;
-	max-width: 720px;
-}
-
 div#sliderdroit figure {
 	position: relative;
 	width: 400%;
@@ -431,7 +426,7 @@ div#sliderdroit figure img {
 
 div#sliderdroit {
 	width: 75%;
-	max-width: 720px;
+	max-width: 3840px;
 	overflow: hidden;
 }
 
@@ -473,14 +468,20 @@ div#slidergauche{
 /* Triangles images */
 
 .triangle_haut {
-	padding-top: 5px;
+/*	padding-top: 5px;
 	width: 100%;
 	overflow: hidden;
 	position: relative;
-	color: red;
+	color: red;*/
+	-webkit-clip-path: polygon(50% 43%, 100% 84%, 100% 100%, 0 100%, 0 85%);
+	clip-path: polygon(50% 43%, 100% 84%, 100% 100%, 0 100%, 0 85%);
 }
 
-.triangle_haut:before {
+.triangle_haut img{
+	max-width: 300%;
+}
+
+/*.triangle_haut:before {
 	content: '';
 	display: inline-block;
 	padding-top: 50%;
@@ -502,7 +503,7 @@ div#slidergauche{
 	background-repeat: no-repeat;
 	background-position: center bottom;
 }
-
+*/
 .triangle_bas {
 	padding-top: 5px;
 	width: 100%;
