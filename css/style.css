@@ -468,74 +468,21 @@ div#slidergauche{
 /* Triangles images */
 
 .triangle_haut {
-/*	padding-top: 5px;
-	width: 100%;
-	overflow: hidden;
-	position: relative;
-	color: red;*/
+	margin-top: -40%;
 	-webkit-clip-path: polygon(50% 43%, 100% 84%, 100% 100%, 0 100%, 0 85%);
 	clip-path: polygon(50% 43%, 100% 84%, 100% 100%, 0 100%, 0 85%);
 }
 
 .triangle_haut img{
-	max-width: 300%;
-}
-
-/*.triangle_haut:before {
-	content: '';
-	display: inline-block;
-	padding-top: 50%;
-	vertical-align: bottom;/
-}
-
-.triangle_haut .notext_haut {
 	width: 100%;
-	padding-top: 100%;
-	position: absolute;
-	z-index: -1;
-	border: 2px solid;
-	left: 0;
-	transform: rotate(45deg);
-	transform-origin: 24.75% 59.6%;
-	box-shadow: 0 0 5px black;
-	background-image: url("../images/utceenne.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center bottom;
 }
-*/
+
 .triangle_bas {
-	padding-top: 5px;
-	width: 100%;
-	overflow: hidden;
-	position: relative;
-	color: orange;
-	-moz-transform: rotate(180deg);
-	-webkit-transform: rotate(180deg);
-	-ms-transform: rotate(180deg);
-	-o-transform: rotate(180deg);
-	transform: rotate(180deg);
+	margin-bottom: -40%;
+	-webkit-clip-path: polygon(50% 57%, 100% 14%, 100% 0, 0 0, 0 15%);
+	clip-path: polygon(50% 57%, 100% 14%, 100% 0, 0 0, 0 15%);
 }
 
-.triangle_bas:before {
-	content: '';
-	display: inline-block;
-	padding-top: 50%;
-	vertical-align: bottom;
-}
-
-.triangle_bas .notext_bas {
+.triangle_bas img{
 	width: 100%;
-	padding-top: 100%;
-	position: absolute;
-	z-index: -1;
-	border: 2px solid;
-	left: 0;
-	transform: rotate(45deg);
-	transform-origin: 24.75% 59.6%;
-	box-shadow: 0 0 5px black;
-	background-image: url("../images/gala.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center bottom;
 }
