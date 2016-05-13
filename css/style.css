@@ -186,6 +186,11 @@ img { max-width: 100% }
 /*          Navigation         */
 /*******************************/
 
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+	max-width: 650px;
+	margin: auto;
+}
+
 .navbar-inverse {
     border-radius : 0;
     background : rgba(15, 16, 34, 1);
@@ -315,7 +320,7 @@ media_tag_5 {media_subcode:5}
 	margin-left: 0px;
 }
 
-h1, h2, h3, h4, h5, h6, ul, li, a, div, p, body, input, button, select,label, ul, li, div, section, article, aside, input, button, textarea, select, label {
+h1, h2, h3, h4, h5, h6, ul, li, a, div, p, body, input, button, select,label, ul, li, div, section, article, aside, input, button, textarea, select, label, hr {
 	margin: 0px;
 	padding: 0px;
 	color: white;
@@ -455,6 +460,10 @@ div#slidergauche{
 	text-align: center;
 }
 
+.text-justify{
+	text-align: justify;
+}
+
 .margin_bottom{
 	margin-bottom: 20px;
 }
@@ -468,4 +477,8 @@ div#slidergauche{
 }
 .background_grey{
 	background-color: #232323;
+}
+
+.orange{
+	color: rgb(231,165,48);
 }
