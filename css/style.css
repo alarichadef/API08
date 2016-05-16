@@ -1,10 +1,16 @@
 #head {
-	margin-top: 10%;
+	margin-top: 12%;
 	text-align: center;
 	color: white;
 	font-family: "Open sans", Helvetica, Arial;
 	font-weight: 300;
 }
+
+#head img{
+	max-width: 25%;
+	height: auto;
+}
+
 <<<<<<< HEAD
 =======
 .myhred{
