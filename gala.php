@@ -8,6 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Mobirise v2.11.1, mobirise.com">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="images/favicon.png">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:700,400&amp;subset=cyrillic,latin,greek,vietnamese">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/animate.css/animate.min.css">
@@ -20,7 +21,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
-<style>  
+<style>
 .myhred{
 height: 5px;
 margin-left: auto;
@@ -90,27 +91,22 @@ margin-bottom:50px;
 		</div>
 	</div>
 
-	<hr>
+	<hr class = "margin_bottom">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
 					<a name="article1"></a>
 					<article>
 
-						<h1 class="text-muted">FEDER sera présent au Gala !</a></h1>
-									<hr>
-
-									<img src="http://placehold.it/900x300" class="img-responsive">
-
-									<br />
+						<h1  class="text-muted">FEDER sera présent au Gala !</a></h1>
+								<hr class = "margin_bottom margin_top">
 
 									<p>De son vrai nom Hadrien Federiconi, Feder est originaire de Nice. Il compte parmi les grands noms de la deep-house française, grâce à son titre «Goodbye ft Lyse» qui connait en ce moment un gros succès dans toute l'Europe.
 
 Ecoutez son single "Goodbye" !
 </p>
 
-									<p>The symbol of Aries is the Ram, and that's both good and bad news. Impulsive Aries might be tempted to ram their ideas down everyone's throats without even bothering to ask if they want to know. It's these times when you may wish Aries' symbol were a more subdued creature, more lamb than ram perhaps. You're not likely to convince the Ram to soften up; these folks are blunt and to the point. Along with those qualities comes the sheer force of the Aries nature, a force that can actually accomplish a great deal. Much of Aries' drive to compete and to win comes from its Cardinal Quality. Cardinal Signs love to get things going, and Aries exemplifies this even better than Cancer, Libra or Capricorn.</p>
-									<hr>
+<hr class = "margin_bottom margin_top">
 									<div class="embed-responsive embed-responsive-16by9">
 														<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Mptdcx36qZU"></iframe>
 												</div>
@@ -118,22 +114,34 @@ Ecoutez son single "Goodbye" !
 									<hr class = "myhred">
 
 					</article>
-					<a name="bruno"></a>
+					<a name="article2"></a>
 					<article>
 
-						<h1 class="text-muted">Exemple d'article sur la maman de Bruno</a></h1>
-									<hr>
+						<h1 class="text-muted">Partenariat Société Générale</a></h1>
+						<hr class = "margin_bottom margin_top">
+<p>
+						Salut à toi ! 						<br/>
 
-									<img src="http://placehold.it/900x300" class="img-responsive">
 
-									<br />
+						Cette année encore, ta banque préférée la Société Générale ne te rembourse pas un seul, mais les deux évènements d'Etuville 2015 : l'UTCéenne et le Gala UTC sur ouverture de compte dans leur agence !
+						<br/>
+						Pour obtenir ce remboursement rien de plus simple : 						<br/>
+						- Va à la SOGE ouvrir ton compte avec : ta place / carte d'identité / justificatif de domicile <br>
+						- 36€ seront immédiatement crédités sur ton compte (quelque soit le type de place) <br>
+						- Achète ta place pour la Gala UTC 2015 (en vente après l'UTCéenne)<br>
+						- Retourne voir la SOGE avec ta place<br>
+						- 25€ seront crédités sur ton compte<br>
+<br>
+						On rappelle que l'ouverture d'un compte à la Société générale n'entraine aucun frais pendant toute la durée de ta scolarité. <br>
 
-									<p>Aries is the first sign of the zodiac, and that's pretty much how those born under this sign see themselves: first. Aries are the leaders of the pack, first in line to get things going. Whether or not everything gets done is another question altogether, for an Aries prefers to initiate rather than to complete. Do you have a project needing a kick-start? Call an Aries, by all means. The leadership displayed by Aries is most impressive, so don't be surprised if they can rally the troops against seemingly insurmountable odds.</p>
+						Allez hop hop hop !
+						Ca prend sa place et ça ouvre son compte !
 
-									<p>The symbol of Aries is the Ram, and that's both good and bad news. Impulsive Aries might be tempted to ram their ideas down everyone's throats without even bothering to ask if they want to know. It's these times when you may wish Aries' symbol were a more subdued creature, more lamb than ram perhaps. You're not likely to convince the Ram to soften up; these folks are blunt and to the point. Along with those qualities comes the sheer force of the Aries nature, a force that can actually accomplish a great deal. Much of Aries' drive to compete and to win comes from its Cardinal Quality. Cardinal Signs love to get things going, and Aries exemplifies this even better than Cancer, Libra or Capricorn.</p>
+						Etu-bisous </p>
+
 									<hr>
 									<div class="embed-responsive embed-responsive-16by9">
-														<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BbQk78Skmb4"></iframe>
+														<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/C2FQSKrWwCE"></iframe>
 												</div>
 
 									<hr class = "myhred">
