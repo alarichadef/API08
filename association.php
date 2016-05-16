@@ -28,11 +28,11 @@
 		<div class="margin_bottom text-center col-md-offset-2 col-md-8">	
 			<hr class="margin_bottom">
 			<?php include('asso_pres.php');?>
-		  <hr class="margin_bottom">
 		</div>
 	</div>
-
-
+  <div class="col-md-12">
+    <hr class="margin_bottom">
+  </div>  
 	<section class="margin_bottom">
   <div class="container">
     <div class="row">
