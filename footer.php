@@ -1,6 +1,6 @@
 	<footer id="footer" class="top-space col-md-12">
 		<div class="footer1">
-			<h2 class="thin margin_bottom text-center">Contact</h2>
+			<h2 class="thin margin_bottom text-center orange">Contact</h2>
 			<div class="container">
 				<div class="row">
 					<!-- Réseaux sociaux -->

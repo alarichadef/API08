@@ -1,4 +1,4 @@
-<h2 class="thin margin_bottom text-center">L'association</h2>
+<h2 class="thin margin_bottom text-center orange">L'association</h2>
 <p class="text-justify">Etuville est une Association de loi 1901 qui est chargée d'organiser les événements majeurs de la vie UTCéenne.
 En effet, les étudiants, le personnel, les diplômés set leurs proches sont tous conviés. Le but de ces événements est de faire vivre l'image et les valeurs de l'UTC ainsi que d'impliquer les étudiants dans la vie de celle-ci.<br><br>
 

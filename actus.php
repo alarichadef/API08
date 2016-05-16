@@ -1,7 +1,7 @@
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 margin_bottom background_grey padding_bottom">	
 	<div class="padding_top col-md-offset-2 col-md-8 actus">
 		<br>
-		<h2 class="text-center">Actualités</h2>
+		<h2 class="text-center orange">Actualités</h2>
 		<br>
 		<div class="row text-center margin_bottom">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
