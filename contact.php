@@ -8,7 +8,7 @@ function verifEmail($email) {
 }
 
 if(!verifEmail($_POST['email'])) {
-	echo 'Format du mail incorrect.';
+	header('Location: ./index.php');
 	die();
 }
 
@@ -24,10 +24,8 @@ if(isset($_POST['message']) && !empty($_POST['message'])) {
 	$message .= '<b>Email : <b>' . $_POST['email'] . '<br><br>';
 	$message .= '<b>Message : <b><br>' . $_POST['message'] . '<br>';
 
-	if(mail($_POST['email'], "[SITE ASSO] Demande de contact", $message, $headers)) {
-		echo 'Votre message a bien été envoyé ';
-	} else {
-		echo "Votre message n'a pas pu être envoyé";
-	}
+	mail($_POST['email'], "[SITE ASSO] Demande de contact", $message, $headers);
 }
+
+header('Location: ./index.php');
 ?>
