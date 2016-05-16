@@ -76,29 +76,33 @@ margin-bottom:50px;
 	<div class="container">
 		<div class="col-md-8 col-md-offset-2">
 			<br><br>
-			<h2 class="thin text-center">Le Gala</h2>
-			<br><br>
-			<p>Le Gala de l’UTC, la soirée de prestige.<br><br>
-			Rendez-vous le XX XXXXXXXXXX 2016 à l’UTC pour le Gala, qui pour cette année, a été totalement repensé.<br><br>
-			Pour cette édition, l’équipe d’Etuville vous accueille dans les locaux de l’UTC au niveau de la nouvelle zone près des bords de l’Oise (Centre d’Innovation, Centre de Transfert...) Cette soirée en l’honneur des nouveaux diplômés réunira également les étudiants, les membres du personnel et leurs proches.<br><br>
-			Plus de détails prochainement...</p>
-			<p>
-				Et des photos là.
-			</p>
-			<p>
-				Et des vidéos là.
-			</p>
+			<h2 class="thin text-center orange">Le Gala</h2>
+<p style="text-align: justify;"><br><br>Le Gala UTC revient le <strong>Samedi XX Novembre 2016</strong>, pour une édition anniversaire.</p>
+<p style="text-align: justify;">Chaque année, le Gala c’est une soirée de prestige unique en son genre qui accueille plus de 3500 participants, dont les bénéfices sont reversés à des associations de charité.</p>
+<p style="text-align: justify;">Pour cette 20ème année, ce sont toutes les éditions précédentes qui seront mises à l’honneur lors d’une rétrospective.</p>
+<p>Les locaux de l’école seront de nouveau transformés afin de vous faire vivre une nuit magique.</p>
+<p>Au programme :</p>
+<ul>
+<li style="text-align: justify;">3500 participants vibrant aux sons des mix de <strong>Feder</strong> et du showcase exclusif des <strong>Nhyx</strong>, mais aussi une scène rock, et 2 dancefloors</li>
+<li style="text-align: justify;">une galerie de 11 espaces à thèmes décorés selon les thèmes des années précédentes</li>
+<li style="text-align: justify;">des spectacles de talents (Hip-Hop, comique, etc…)</li>
+<li style="text-align: justify;">une grande tombola pour l’anniversaire de l’événement, et encore d’autres surprises</li>
+</ul><br><br>
+<div class="embed-responsive embed-responsive-16by9">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Vc_0X4DL7kQ"></iframe>
+			</div>
+
 		</div>
 	</div>
 
-	<hr class = "margin_bottom">
+	<hr class = "margin_bottom margin_top">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
 					<a name="article1"></a>
 					<article>
 
-						<h1  class="text-muted">FEDER sera présent au Gala !</a></h1>
+						<h1  class="orange">FEDER sera présent au Gala !</a></h1>
 								<hr class = "margin_bottom margin_top">
 
 									<p>De son vrai nom Hadrien Federiconi, Feder est originaire de Nice. Il compte parmi les grands noms de la deep-house française, grâce à son titre «Goodbye ft Lyse» qui connait en ce moment un gros succès dans toute l'Europe.
@@ -117,7 +121,7 @@ Ecoutez son single "Goodbye" !
 					<a name="article2"></a>
 					<article>
 
-						<h1 class="text-muted">Partenariat Société Générale</a></h1>
+						<h1 class="orange">Partenariat Société Générale</a></h1>
 						<hr class = "margin_bottom margin_top">
 <p>
 						Salut à toi ! 						<br/>
