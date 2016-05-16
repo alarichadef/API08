@@ -21,20 +21,6 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
-<style>
-.myhred{
-height: 5px;
-margin-left: auto;
-margin-right: auto;
-background-color:#FF0066;
-color:#FF0066;
-border: 0 none;
-margin-top: 50px;
-margin-bottom:50px;
-
-}
-
-</style>
 	<!--[if lt IE 9]>
 	<script src="js/html5shiv.js"></script>
 	<script src="js/respond.min.js"></script>
