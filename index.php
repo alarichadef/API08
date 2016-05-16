@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
 <head>
 	<meta charset="utf-8">
@@ -56,7 +56,7 @@
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 background_grey margin_bottom">
 		<div class="padding_top col-md-offset-2 col-md-8">
 			<div class="margin_bottom">
-				<? include('utceenne_pres.php');?>
+				<?php include('utceenne_pres.php');?>
 				<a name="gala"></a>
 				<p class="text-center padding_top"><a class="btn btn-action btn-lg margin_bottom" role="button" href="utceenne.php">En savoir plus</a></p>
 			</div>
