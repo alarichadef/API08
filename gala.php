@@ -8,8 +8,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Mobirise v2.11.1, mobirise.com">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
-  <meta name="description" content="Free Responsive Website Maker. Create awesome mobile-first websites. Easy and fast - No coding!">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:700,400&amp;subset=cyrillic,latin,greek,vietnamese">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/animate.css/animate.min.css">
@@ -18,7 +16,6 @@
   <link rel="stylesheet" href="assets/mobirise-slider/style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
 
-	<link rel="shortcut icon" href="images/favicon.png">
 	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
@@ -120,7 +117,7 @@ Ecoutez son single "Goodbye" !
 
 
 	                    <a href="#lb-gallery1-3" data-slide-to="0" data-toggle="modal">
-	                        <img alt="" src="assets/images/gala.jpg">
+	                        <img alt="" src="assets/images/gala4.jpg">
 	                        <span class="icon glyphicon glyphicon-zoom-in"></span>
 	                    </a>
 	                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
@@ -128,7 +125,7 @@ Ecoutez son single "Goodbye" !
 
 
 	                    <a href="#lb-gallery1-3" data-slide-to="1" data-toggle="modal">
-	                        <img alt="" src="assets/images/gala2.jpg">
+	                        <img alt="" src="assets/images/gala5.jpg">
 	                        <span class="icon glyphicon glyphicon-zoom-in"></span>
 	                    </a>
 	                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
@@ -136,7 +133,7 @@ Ecoutez son single "Goodbye" !
 
 
 	                    <a href="#lb-gallery1-3" data-slide-to="2" data-toggle="modal">
-	                        <img alt="" src="assets/images/slide3-small.jpg">
+	                        <img alt="" src="assets/images/gala6.jpg">
 	                        <span class="icon glyphicon glyphicon-zoom-in"></span>
 	                    </a>
 	                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
@@ -144,7 +141,7 @@ Ecoutez son single "Goodbye" !
 
 
 	                    <a href="#lb-gallery1-3" data-slide-to="3" data-toggle="modal">
-	                        <img alt="" src="assets/images/slide4-small.jpg">
+	                        <img alt="" src="assets/images/gala7.jpg">
 	                        <span class="icon glyphicon glyphicon-zoom-in"></span>
 	                    </a>
 	                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
@@ -152,7 +149,7 @@ Ecoutez son single "Goodbye" !
 
 
 	                    <a href="#lb-gallery1-3" data-slide-to="4" data-toggle="modal">
-	                        <img alt="" src="assets/images/slide5-small.jpg">
+	                        <img alt="" src="assets/images/gala8.jpg">
 	                        <span class="icon glyphicon glyphicon-zoom-in"></span>
 	                    </a>
 	                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
@@ -160,7 +157,7 @@ Ecoutez son single "Goodbye" !
 
 
 	                    <a href="#lb-gallery1-3" data-slide-to="5" data-toggle="modal">
-	                        <img alt="" src="assets/images/slide6-small.jpg">
+	                        <img alt="" src="assets/images/gala9.jpg">
 	                        <span class="icon glyphicon glyphicon-zoom-in"></span>
 	                    </a>
 	                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
@@ -168,7 +165,7 @@ Ecoutez son single "Goodbye" !
 
 
 	                    <a href="#lb-gallery1-3" data-slide-to="6" data-toggle="modal">
-	                        <img alt="" src="assets/images/slide7-small.jpg">
+	                        <img alt="" src="assets/images/gala10.jpg">
 	                        <span class="icon glyphicon glyphicon-zoom-in"></span>
 	                    </a>
 	                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
@@ -176,7 +173,7 @@ Ecoutez son single "Goodbye" !
 
 
 	                    <a href="#lb-gallery1-3" data-slide-to="7" data-toggle="modal">
-	                        <img alt="" src="assets/images/slide8-small.jpg">
+	                        <img alt="" src="assets/images/gala11.jpg">
 	                        <span class="icon glyphicon glyphicon-zoom-in"></span>
 	                    </a>
 	                </div>
@@ -195,21 +192,21 @@ Ecoutez son single "Goodbye" !
 	                    </ol>
 	                    <div class="carousel-inner">
 	                        <div class="item active">
-	                            <img alt="" src="assets/images/gala.jpg">
+	                            <img alt="" src="assets/images/gala4.jpg">
 	                        </div><div class="item">
-	                            <img alt="" src="assets/images/gala2.jpg">
+	                            <img alt="" src="assets/images/gala5.jpg">
 	                        </div><div class="item">
-	                            <img alt="" src="assets/images/slide3.jpg">
+	                            <img alt="" src="assets/images/gala6.jpg">
 	                        </div><div class="item">
-	                            <img alt="" src="assets/images/slide4.jpg">
+	                            <img alt="" src="assets/images/gala7.jpg">
 	                        </div><div class="item">
-	                            <img alt="" src="assets/images/slide5.jpg">
+	                            <img alt="" src="assets/images/gala8.jpg">
 	                        </div><div class="item">
-	                            <img alt="" src="assets/images/slide6.jpg">
+	                            <img alt="" src="assets/images/gala9.jpg">
 	                        </div><div class="item">
-	                            <img alt="" src="assets/images/slide7.jpg">
+	                            <img alt="" src="assets/images/gala10.jpg">
 	                        </div><div class="item">
-	                            <img alt="" src="assets/images/slide8.jpg">
+	                            <img alt="" src="assets/images/gala11.jpg">
 	                        </div>
 	                    </div>
 	                    <a class="left carousel-control" role="button" data-slide="prev" href="#lb-gallery1-3">
