@@ -5,17 +5,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Etuville - Le Gala</title>
 
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Mobirise v2.11.1, mobirise.com">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="generator" content="Mobirise v2.11.1, mobirise.com">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="images/favicon.png">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:700,400&amp;subset=cyrillic,latin,greek,vietnamese">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/animate.css/animate.min.css">
-  <link rel="stylesheet" href="assets/mobirise/css/style.css">
-  <link rel="stylesheet" href="assets/mobirise-gallery/style.css">
-  <link rel="stylesheet" href="assets/mobirise-slider/style.css">
-  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:700,400&amp;subset=cyrillic,latin,greek,vietnamese">
+  	<link rel="stylesheet" href="assets/animate.css/animate.min.css">
+  	<link rel="stylesheet" href="assets/mobirise/css/style.css">
+  	<link rel="stylesheet" href="assets/mobirise-gallery/style.css">
+  	<link rel="stylesheet" href="assets/mobirise-slider/style.css">
+  	<link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
 
 	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -28,57 +27,19 @@
 </head>
 <body class="home">
 	<!-- Barre de navigation -->
-	<nav class="navbar navbar-inverse navbar-fixed-top navbar_center col-xs-12 col-sm-12 col-md-12 col-lg-12">
-		<div class="container col-sm-offset-1 col-md-offset-3 col-lg-offset-4 ">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-			</div>
-			<div id="navbar" class="navbar-collapse collapse">
-				<ul class="nav navbar-nav">
-					<li class = "active"><a href="index.html">ACCUEIL</a></li>
-					<li><a href="index.html#association">L'ASSOCIATION</a></li>
-					<li><a href="index.html#utceenne">L'UTCEENNE</a></li>
-					<li><a href="index.html#gala">LE GALA</a></li>
-					<li><a href="index.html#contact">CONTACT</a></li>
-					<li><a class="btn btn-success" href="http://assos.utc.fr/etuville/billetterie/">BILLETTERIE</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
+	<?php include('header.php');?>
 	<!-- /Barre de navigation -->
 	<!-- Logo -->
-	<header id="head">
-		<img id="logo" class="img-responsive center-block" src="images/logo.png" alt="Logo Etuville">
-	</header>
+	<?php include('logo_header.php');?>
 	<!-- /Logo -->
 	<!-- Contenu -->
 	<div class="container">
-		<div class="col-md-8 col-md-offset-2">
-			<br><br>
-			<h2 class="thin text-center orange">Le Gala</h2>
-<p style="text-align: justify;"><br><br>Le Gala UTC revient le <strong>Samedi XX Novembre 2016</strong>, pour une édition anniversaire.</p>
-<p style="text-align: justify;">Chaque année, le Gala c’est une soirée de prestige unique en son genre qui accueille plus de 3500 participants, dont les bénéfices sont reversés à des associations de charité.</p>
-<p style="text-align: justify;">Pour cette 20ème année, ce sont toutes les éditions précédentes qui seront mises à l’honneur lors d’une rétrospective.</p>
-<p>Les locaux de l’école seront de nouveau transformés afin de vous faire vivre une nuit magique.</p>
-<p>Au programme :</p>
-<ul>
-<li style="text-align: justify;">3500 participants vibrant aux sons des mix de <strong>Feder</strong> et du showcase exclusif des <strong>Nhyx</strong>, mais aussi une scène rock, et 2 dancefloors</li>
-<li style="text-align: justify;">une galerie de 11 espaces à thèmes décorés selon les thèmes des années précédentes</li>
-<li style="text-align: justify;">des spectacles de talents (Hip-Hop, comique, etc…)</li>
-<li style="text-align: justify;">une grande tombola pour l’anniversaire de l’événement, et encore d’autres surprises</li>
-</ul><br><br>
-<div class="embed-responsive embed-responsive-16by9">
-					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Vc_0X4DL7kQ"></iframe>
+		<div class="col-md-offset-2 col-md-8">
+			<?php include('gala_pres.php');?>	
+			<div class="embed-responsive embed-responsive-16by9">
+				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Vc_0X4DL7kQ"></iframe>
 			</div>
-
-		</div>
+		</div>	
 	</div>
 
 	<hr class = "margin_bottom margin_top">
@@ -88,10 +49,10 @@
 					<a name="article1"></a>
 					<article>
 
-						<h1  class="orange">FEDER sera présent au Gala !</a></h1>
+						<h1  class="orange text-center">FEDER sera présent au Gala !</a></h1>
 								<hr class = "margin_bottom margin_top">
 
-									<p>De son vrai nom Hadrien Federiconi, Feder est originaire de Nice. Il compte parmi les grands noms de la deep-house française, grâce à son titre «Goodbye ft Lyse» qui connait en ce moment un gros succès dans toute l'Europe.
+									<p style="text-align: justify;">De son vrai nom Hadrien Federiconi, Feder est originaire de Nice. Il compte parmi les grands noms de la deep-house française, grâce à son titre «Goodbye ft Lyse» qui connait en ce moment un gros succès dans toute l'Europe.
 
 Ecoutez son single "Goodbye" !
 </p>
@@ -107,7 +68,7 @@ Ecoutez son single "Goodbye" !
 					<a name="article2"></a>
 					<article>
 
-						<h1 class="orange">Partenariat Société Générale</a></h1>
+						<h1 class="orange text-center">Partenariat Société Générale</a></h1>
 						<hr class = "margin_bottom margin_top">
 <p>
 						Salut à toi ! 						<br/>
@@ -267,9 +228,7 @@ Ecoutez son single "Goodbye" !
 
 	<!-- /Contenu -->
 	<!-- Pied de page -->
-	<div class="footer3">
-		<p>Copyright &copy; 2016. Designed by Alaric HADEF.</p>
-	</div>
+	<?include('copyright.php');?>
 	<!-- /Pied de page -->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
