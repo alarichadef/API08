@@ -7,7 +7,7 @@ function verifEmail($email) {
 	}
 }
 
-if(!verifMail($_POST['email'])) {
+if(!verifEmail($_POST['email'])) {
 	echo 'Format du mail incorrect.';
 	die();
 }
