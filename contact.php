@@ -7,12 +7,12 @@ function verifEmail($email) {
 	}
 }
 
-if(!verifEmail($_POST['email'])) {
-	header('Location: ./index.php');
-	die();
-}
-
 if(isset($_POST['message']) && !empty($_POST['message'])) {
+
+	if(!verifEmail($_POST['email'])) {
+		header('Location: ./index.php');
+		die();
+	}
 
 	$headers  = 'MIME-Version: 1.0' . "\n";
 	$headers .= 'Content-type: text/html; charset=ISO-8859-1' . "\n";
