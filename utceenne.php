@@ -23,15 +23,13 @@
 	<!-- /Logo -->
 	<!-- Contenu -->
 	<div class="container">
-		<div class="col-md-offset-3 col-md-6 padding_bottom">
+		<div class="col-md-offset-2 col-md-8 padding_bottom">
 			<?php include('utceenne_pres.php');?>
 		</div>
 	</div>
 	<!-- /Contenu -->
 	<!-- Pied de page -->
-	<div class="footer3">
-		<p>Copyright &copy; 2016. Designed by Alaric HADEF.</p>
-	</div>
+	<?php include('copyright.php');?>
 	<!-- /Pied de page -->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>

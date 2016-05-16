@@ -41,22 +41,24 @@
 	<!-- /Logo -->
 	<!-- Carrousel d'images -->
 	<?php include('caroussel.php');?>
+			<a name="association"></a>
 	<!-- /Carrousel d'images -->
 	<!-- L'asso -->
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-		<div class="margin_bottom text-center col-md-offset-2 col-md-8">	
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">	
+		<div class="margin_bottom text-center col-md-offset-2 col-md-8">
 			<?php include('asso_pres.php');?>
+			<a name="utceenne"></a>
 			<p class="text-center margin_bottom"><a class="btn btn-action btn-lg" role="button" href="association.php">En savoir plus</a></p>
 		</div>
 	</div>
     <!-- /L'asso -->
 	<!-- L'UTCéenne -->
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 background_grey margin_bottom">	
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 background_grey margin_bottom">
 		<div class="padding_top col-md-offset-2 col-md-8">
 			<div class="margin_bottom">
 				<? include('utceenne_pres.php');?>
+				<a name="gala"></a>
 				<p class="text-center padding_top"><a class="btn btn-action btn-lg margin_bottom" role="button" href="utceenne.php">En savoir plus</a></p>
-				<a name="utceene"></a>
 			</div>
 		</div>
 	</div>
@@ -67,7 +69,6 @@
 			<div class="margin_bottom">
 				<?php include('gala_pres.php');?>
 				<p class="text-center padding_top"><a class="btn btn-action btn-lg margin_bottom" role="button" href="gala.php">En savoir plus</a></p>
-				<a name="utceene"></a>
 			</div>
 		</div>
 	</div>
@@ -76,78 +77,11 @@
 	<?php include('actus.php');?>
 	<!-- /Actualités -->
 	<!-- Partenaires -->
-	<div class="container margin_bottom padding_top col-md-12">
-		<h2 class="text-center">Partenaires</h2>
-		<p class="text-center margin_bottom">Merci à eux.</p>
-		<div class="container text-center margin_bottom">
-			<div class="row">
-				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"><a href="#"><img src="images/partenaires/empty200x200.png" alt="Logo Partenaire"></a></div>
-				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"><a href="#"><img src="images/partenaires/logo_bde.png" alt="Logo Partenaire"></a></div>
-				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"><a href="#"><img src="images/partenaires/asterix.png" alt="Logo Partenaire"></a></div>
-			</div>
-			<br>
-			<div class="row">
-				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"><a href="#"><img src="images/partenaires/societegenerale.png" alt="Logo Partenaire"></a></div>
-				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"><a href="#"><img src="images/partenaires/empty200x200.png" alt="Logo Partenaire"></a></div>
-				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"><a href="#"><img src="images/partenaires/empty200x200.png" alt="Logo Partenaire"></a></div>
-			</div>
-		</div>
-	</div>
+	<?php include('partenaires.php');?>
 	<!-- /Partenaires -->
 	<!-- Pied de page -->
-	<footer id="footer" class="top-space col-md-12">
-		<div class="footer1">
-			<h2 class="thin margin_bottom text-center">Contact</h2>
-			<div class="container">
-				<div class="row">
-					<!-- Réseaux sociaux -->
-					<div class="col-md-3 widget">
-						<h3 class="widget-title">Suivez-nous</h3>
-						<div class="widget-body">
-							<p class="follow-me-icons">
-								<!--<a href=""><i class="fa fa-twitter fa-2"></i></a>-->
-								<a href="https://www.flickr.com/photos/67898145@N05/collections/"><i class="fa fa-flickr fa-2"></i></a>
-								<a href="https://www.youtube.com/user/ETUVILLE"><i class="fa fa-youtube fa-2"></i></a>
-								<a href="https://www.facebook.com/profile.php?id=100010850087126"><i class="fa fa-facebook fa-2"></i></a>
-							</p>
-						</div>
-					</div>
-					<!-- /Réseaux sociaux -->
-					<!-- Contact -->
-					<div class="col-md-9 widget">
-						<div class="widget-body">
-							<a name="contact"></a>
-							<p>Pour toute question, contactez nous grâce au formulaire ci-dessous</p>
-							<hr>
-							<br>
-							<form method="post" action="contact.php">
-								<div class="row">
-									<div class="col-sm-6">
-										<div class="form-group">
-											<label class="control-label required">Votre email</label>
-											<input type="email" name="email" required="required" class="form-control">
-										</div>
-									</div>
-								</div>
-								<div class="form-group">
-									<label class="control-label">Votre message</label>
-									<textarea name="message" class="form-control"></textarea>
-									<p class="help-block"><i>N'oubliez pas vos prénom, nom, et numéro de téléphone pour avoir votre réponse.</i></p>
-								</div>
-								<div class="form-group">
-									<input class="btn btn-action btn-lg" type="submit" name="submit" value="Envoyer">
-								</div>
-							</form>
-						</div>
-					</div>
-					<!-- /Contact -->
-				</div>
-			</div>
-		</div>
-		<div class="footer3">
-			<p>Copyright &copy; 2016. Designed by Alaric HADEF.</p>
-		</div>
-	</footer>
+	<a name="contact"></a>
+	<?php include('footer.php');?>
 	<!-- /Pied de page -->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>

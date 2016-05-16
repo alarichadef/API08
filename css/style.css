@@ -468,7 +468,7 @@ div#slidergauche{
 }
 
 .margin_bottom{
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 .margin_top{
 	margin-top: 20px;
@@ -487,4 +487,9 @@ div#slidergauche{
 
 .orange{
 	color: rgb(231,165,48);
+}
+
+.actus a:hover{
+	color: white;
+	text-decoration: none;
 }
