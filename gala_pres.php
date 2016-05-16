@@ -1,7 +1,7 @@
 <h2 class="thin text-center orange">Le Gala</h2>
 <p style="text-align: justify;"><br><br>Le Gala UTC revient le <strong>Samedi XX Novembre 2016</strong>, pour une édition anniversaire.</p>
 <p style="text-align: justify;">Chaque année, le Gala c’est une soirée de prestige unique en son genre qui accueille plus de 3500 participants, dont les bénéfices sont reversés à des associations de charité.</p>
-<p style="text-align: justify;">Pour cette 20ème année, ce sont toutes les éditions précédentes qui seront mises à l’honneur lors d’une rétrospective.</p>
+<p style="text-align: justify;">Pour cette 21ème année, ce sont toutes les éditions précédentes qui seront mises à l’honneur lors d’une rétrospective.</p>
 <p>Les locaux de l’école seront de nouveau transformés afin de vous faire vivre une nuit magique.</p>
 <p>Au programme :</p>
 <ul>
