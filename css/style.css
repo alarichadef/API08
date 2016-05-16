@@ -187,8 +187,8 @@ img { max-width: 100% }
 /*******************************/
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
-	max-width: 650px;
-	margin: auto;
+	//max-width: 650px;
+	//margin: auto;
 }
 
 .navbar-inverse {
