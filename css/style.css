@@ -11,18 +11,15 @@
 	height: auto;
 }
 
-<<<<<<< HEAD
-=======
 .myhred{
 height: 5px;
 margin-left: auto;
 margin-right: auto;
-background-color:rgba(210, 74, 64, 1);
+background-color:#FF0066;
 color:#FF0066;
 border: 0 none;
 margin-top: 50px;
 margin-bottom:50px;
-   
 }
 
 #head2 {
@@ -99,7 +96,6 @@ margin-bottom:50px;
 	float: none;
 	margin: 0 auto;
 }
->>>>>>> origin/master
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Open sans", Helvetica, Arial;
@@ -136,6 +132,7 @@ img { max-width: 100% }
 .footer1 a { color: white; }
 .footer1 a:hover .fa-facebook{ color: #365899 }
 .footer1 a:hover .fa-youtube{ color: #cc181e }
+.footer1 a:hover .fa-flickr{ color: #E8488B }
 .footer1 .widget { margin-bottom: 30px }
 .footer1 .widget-title {
     font-size: 17px;
