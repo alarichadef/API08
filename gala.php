@@ -128,7 +128,7 @@ Ecoutez son single "Goodbye" !
 						Pour obtenir ce remboursement rien de plus simple : 						<br/>
 						- Va à la SOGE ouvrir ton compte avec : ta place / carte d'identité / justificatif de domicile <br>
 						- 36€ seront immédiatement crédités sur ton compte (quelque soit le type de place) <br>
-						- Achète ta place pour la Gala UTC 2015 (en vente après l'UTCéenne)<br>
+						- Achète ta place pour la Gala UTC 2016 (en vente après l'UTCéenne)<br>
 						- Retourne voir la SOGE avec ta place<br>
 						- 25€ seront crédités sur ton compte<br>
 <br>
@@ -139,7 +139,7 @@ Ecoutez son single "Goodbye" !
 
 						Etu-bisous </p>
 
-									<hr>
+						<hr class = "margin_bottom margin_top">
 									<div class="embed-responsive embed-responsive-16by9">
 														<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/C2FQSKrWwCE"></iframe>
 												</div>
