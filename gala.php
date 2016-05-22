@@ -4,22 +4,21 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Etuville - Le Gala</title>
-
-  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-  	<meta name="generator" content="Mobirise v2.11.1, mobirise.com">
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="generator" content="Mobirise v2.11.1, mobirise.com">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="images/favicon.png">
-  	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:700,400&amp;subset=cyrillic,latin,greek,vietnamese">
-  	<link rel="stylesheet" href="assets/animate.css/animate.min.css">
-  	<link rel="stylesheet" href="assets/mobirise/css/style.css">
-  	<link rel="stylesheet" href="assets/mobirise-gallery/style.css">
-  	<link rel="stylesheet" href="assets/mobirise-slider/style.css">
-  	<link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:700,400&amp;subset=cyrillic,latin,greek,vietnamese">
+	<link rel="stylesheet" href="assets/animate.css/animate.min.css">
+	<link rel="stylesheet" href="assets/mobirise/css/style.css">
+	<link rel="stylesheet" href="assets/mobirise-gallery/style.css">
+	<link rel="stylesheet" href="assets/mobirise-slider/style.css">
+	<link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
 	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<!--[if lt IE 9]>
 	<script src="js/html5shiv.js"></script>
 	<script src="js/respond.min.js"></script>
@@ -42,134 +41,75 @@
 		</div>	
 	</div>
 
+<?php
+require_once('connexionBDD.php');
+
+$requete = $pdo->prepare('SELECT date, titre, contenu_long FROM 2016_articles WHERE page="g" ORDER BY date DESC LIMIT 5');
+$requete->execute();
+?>
 	<hr class = "margin_bottom margin_top">
 		<div class="container">
+			<a name="articles"></a>
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<a name="article1"></a>
+<?php
+while($donnees = $requete->fetchObject()) {
+?>
 					<article>
-
-						<h1  class="orange text-center">FEDER sera présent au Gala !</a></h1>
-								<hr class = "margin_bottom margin_top">
-
-									<p style="text-align: justify;">De son vrai nom Hadrien Federiconi, Feder est originaire de Nice. Il compte parmi les grands noms de la deep-house française, grâce à son titre «Goodbye ft Lyse» qui connait en ce moment un gros succès dans toute l'Europe.
-
-Ecoutez son single "Goodbye" !
-</p>
-
-<hr class = "margin_bottom margin_top">
-									<div class="embed-responsive embed-responsive-16by9">
-														<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Mptdcx36qZU"></iframe>
-												</div>
-
-									<hr class = "myhred">
-
-					</article>
-					<a name="article2"></a>
-					<article>
-
-						<h1 class="orange text-center">Partenariat Société Générale</a></h1>
+						<h1 class="orange text-center"><?php echo $donnees->titre; ?></h1>
 						<hr class = "margin_bottom margin_top">
-<p>
-						Salut à toi ! 						<br/>
-
-
-						Cette année encore, ta banque préférée la Société Générale ne te rembourse pas un seul, mais les deux évènements d'Etuville 2015 : l'UTCéenne et le Gala UTC sur ouverture de compte dans leur agence !
-						<br/>
-						Pour obtenir ce remboursement rien de plus simple : 						<br/>
-						- Va à la SOGE ouvrir ton compte avec : ta place / carte d'identité / justificatif de domicile <br>
-						- 36€ seront immédiatement crédités sur ton compte (quelque soit le type de place) <br>
-						- Achète ta place pour la Gala UTC 2016 (en vente après l'UTCéenne)<br>
-						- Retourne voir la SOGE avec ta place<br>
-						- 25€ seront crédités sur ton compte<br>
-<br>
-						On rappelle que l'ouverture d'un compte à la Société générale n'entraine aucun frais pendant toute la durée de ta scolarité. <br>
-
-						Allez hop hop hop !
-						Ca prend sa place et ça ouvre son compte !
-
-						Etu-bisous </p>
-
-						<hr class = "margin_bottom margin_top">
-									<div class="embed-responsive embed-responsive-16by9">
-														<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/C2FQSKrWwCE"></iframe>
-												</div>
-
-									<hr class = "myhred">
-
+						<?php echo $donnees->contenu_long; ?>
+						<hr class = "myhred">
 					</article>
+<?php
+}
+?>
 				</div>
 			</div>
 		</div>
 <hr>
-
 
 	<section class="mbr-gallery mbr-section mbr-section--no-padding" id="gallery1-3" style="background-color: rgb(76, 105, 114);">
 	    <!-- Gallery -->
 	    <div class=" mbr-gallery-layout-default">
 	        <div>
 	            <div class="row mbr-gallery-row no-gutter">
-
 	                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-
-
-
 	                    <a href="#lb-gallery1-3" data-slide-to="0" data-toggle="modal">
 	                        <img alt="" src="assets/images/gala4.jpg">
 	                        <span class="icon glyphicon glyphicon-zoom-in"></span>
 	                    </a>
 	                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-
-
-
 	                    <a href="#lb-gallery1-3" data-slide-to="1" data-toggle="modal">
 	                        <img alt="" src="assets/images/gala5.jpg">
 	                        <span class="icon glyphicon glyphicon-zoom-in"></span>
 	                    </a>
 	                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-
-
-
 	                    <a href="#lb-gallery1-3" data-slide-to="2" data-toggle="modal">
 	                        <img alt="" src="assets/images/gala6.jpg">
 	                        <span class="icon glyphicon glyphicon-zoom-in"></span>
 	                    </a>
 	                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-
-
-
 	                    <a href="#lb-gallery1-3" data-slide-to="3" data-toggle="modal">
 	                        <img alt="" src="assets/images/gala7.jpg">
 	                        <span class="icon glyphicon glyphicon-zoom-in"></span>
 	                    </a>
 	                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-
-
-
 	                    <a href="#lb-gallery1-3" data-slide-to="4" data-toggle="modal">
 	                        <img alt="" src="assets/images/gala8.jpg">
 	                        <span class="icon glyphicon glyphicon-zoom-in"></span>
 	                    </a>
 	                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-
-
-
 	                    <a href="#lb-gallery1-3" data-slide-to="5" data-toggle="modal">
 	                        <img alt="" src="assets/images/gala9.jpg">
 	                        <span class="icon glyphicon glyphicon-zoom-in"></span>
 	                    </a>
 	                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-
-
-
 	                    <a href="#lb-gallery1-3" data-slide-to="6" data-toggle="modal">
 	                        <img alt="" src="assets/images/gala10.jpg">
 	                        <span class="icon glyphicon glyphicon-zoom-in"></span>
 	                    </a>
 	                </div><div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mbr-gallery-item">
-
-
-
 	                    <a href="#lb-gallery1-3" data-slide-to="7" data-toggle="modal">
 	                        <img alt="" src="assets/images/gala11.jpg">
 	                        <span class="icon glyphicon glyphicon-zoom-in"></span>

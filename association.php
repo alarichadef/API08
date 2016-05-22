@@ -44,7 +44,7 @@
               <div class="img-box">
                 <img src="assets/images/president.jpg" class="img-responsive">
                 <ul class="text-center">
-									<a class = "ta"  href="mailto:someone@example.com"><li><i class="fa fa-envelope fa-5x"></i></li></a>
+									<a class = "ta"  href="mailto:marc.baudouard@etu.utc.fr"><li><i class="fa fa-envelope fa-5x"></i></li></a>
                 </ul>
               </div>
               <h1 class="text-center">Marc Baudouard</h1>
@@ -55,7 +55,7 @@
               <div class="img-box">
 								<img src="assets/images/viceprez.jpg" class="img-responsive">
                 <ul class="text-center">
-									<a class = "ta"  href="mailto:someone@example.com"><li><i class="fa fa-envelope fa-5x"></i></li></a>
+									<a class = "ta"  href="mailto:sixte.de-mauduit@etu.utc.fr"><li><i class="fa fa-envelope fa-5x"></i></li></a>
                 </ul>
               </div>
               <h1 class="text-center">Sixte De Mauduit</h1>
@@ -66,7 +66,7 @@
               <div class="img-box">
 								<img src="assets/images/viceprez2.jpg" class="img-responsive">
                 <ul class="text-center">
-									<a class = "ta"  href="mailto:someone@example.com"><li><i class="fa fa-envelope fa-5x"></i></li></a>
+									<a class = "ta"  href="mailto:lea.boussieres@etu.utc.fr"><li><i class="fa fa-envelope fa-5x"></i></li></a>
                 </ul>
               </div>
               <h1 class="text-center">Léa Boussieres</h1>
@@ -77,7 +77,7 @@
               <div class="img-box">
 								<img src="assets/images/treso.jpg" class="img-responsive">
                 <ul class="text-center">
-									<a class = "ta"  href="mailto:someone@example.com"><li><i class="fa fa-envelope fa-5x"></i></li></a>
+									<a class = "ta"  href="mailto:louis.bride@etu.utc.fr"><li><i class="fa fa-envelope fa-5x"></i></li></a>
                 </ul>
               </div>
               <h1 class="text-center">Louis Bride</h1>
@@ -88,7 +88,7 @@
               <div class="img-box">
 								<img src="assets/images/vicetrez.jpg" class="img-responsive">
                 <ul class="text-center">
-									<a class = "ta"  href="mailto:someone@example.com"><li><i class="fa fa-envelope fa-5x"></i></li></a>
+									<a class = "ta"  href="mailto:margaux.cleren@etu.utc.fr"><li><i class="fa fa-envelope fa-5x"></i></li></a>
                 </ul>
               </div>
               <h1 class="text-center">Margaux Cleren</h1>
@@ -99,7 +99,7 @@
               <div class="img-box">
 								<img src="assets/images/secretaire.jpg" class="img-responsive">
                 <ul class="text-center">
-									<a class = "ta"  href="mailto:someone@example.com"><li><i class="fa fa-envelope fa-5x"></i></li></a>
+									<a class = "ta"  href="mailto:thibaud.billoteau@etu.utc.fr"><li><i class="fa fa-envelope fa-5x"></i></li></a>
                 </ul>
               </div>
               <h1 class="text-center">Thibaud Billoteau</h1>
@@ -110,7 +110,7 @@
               <div class="img-box">
 								<img src="assets/images/respcom.jpg" class="img-responsive">
                 <ul class="text-center">
-									<a class = "ta"  href="mailto:someone@example.com"><li><i class="fa fa-envelope fa-5x"></i></li></a>
+									<a class = "ta"  href="mailto:blandine.baudeux@etu.utc.fr"><li><i class="fa fa-envelope fa-5x"></i></li></a>
                 </ul>
               </div>
               <h1 class="text-center">Blandine Baudeux</h1>
@@ -121,7 +121,7 @@
               <div class="img-box">
 								<img src="assets/images/resppart.jpg" class="img-responsive">
                 <ul class="text-center">
-									<a class = "ta"  href="mailto:someone@example.com"><li><i class="fa fa-envelope fa-5x"></i></li></a>
+									<a class = "ta"  href="mailto:leo.raimondjean@etu.utc.fr"><li><i class="fa fa-envelope fa-5x"></i></li></a>
                 </ul>
               </div>
               <h1 class="text-center">Leo Raimondjean</h1>
@@ -132,7 +132,7 @@
               <div class="img-box">
 								<img src="assets/images/respanim.jpg" class="img-responsive">
                 <ul class="text-center">
-									<a class = "ta"  href="mailto:someone@example.com"><li><i class="fa fa-envelope fa-5x"></i></li></a>
+									<a class = "ta"  href="mailto:sebastien.laidoum@etu.utc.fr"><li><i class="fa fa-envelope fa-5x"></i></li></a>
                 </ul>
               </div>
               <h1 class="text-center">Sébastien Laidoum</h1>
@@ -143,7 +143,7 @@
               <div class="img-box">
 								<img src="assets/images/resplocau.jpg" class="img-responsive">
                 <ul class="text-center">
-                  <a class = "ta"  href="mailto:someone@example.com"><li><i class="fa fa-envelope fa-5x"></i></li></a>
+                  <a class = "ta"  href="mailto:alice.leroux@etu.utc.fr"><li><i class="fa fa-envelope fa-5x"></i></li></a>
                 </ul>
               </div>
               <h1 class="text-center">Alice Leroux</h1>
