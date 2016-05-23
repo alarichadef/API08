@@ -44,7 +44,7 @@
 			<a name="association"></a>
 	<!-- /Carrousel d'images -->
 	<!-- L'asso -->
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">	
+	<div class="col-md-12 col-lg-12">	
 		<div class="margin_bottom text-center col-md-offset-2 col-md-8">
 			<?php include('asso_pres.php');?>
 			<a name="utceenne"></a>
@@ -53,7 +53,7 @@
 	</div>
     <!-- /L'asso -->
 	<!-- L'UTCéenne -->
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 background_grey margin_bottom">
+	<div class="col-md-12 col-lg-12 background_grey margin_bottom">
 		<div class="padding_top col-md-offset-2 col-md-8">
 			<div class="margin_bottom">
 				<?php include('utceenne_pres.php');?>
@@ -64,7 +64,7 @@
 	</div>
 	<!-- /L'UTCéenne -->
 	<!-- Le Gala -->
-	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">	
+	<div class="col-md-12 col-lg-12 ">	
 		<div class="padding_top col-md-offset-2 col-md-8">
 			<div class="margin_bottom">
 				<?php include('gala_pres.php');?>

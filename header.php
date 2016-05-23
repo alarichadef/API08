@@ -1,5 +1,5 @@
 <nav class="navbar navbar-inverse navbar-fixed-top navbar_center col-xs-12 col-sm-12 col-md-12 col-lg-12">
-  <div class="container col-sm-offset-1 col-md-offset-3 col-lg-offset-4 ">
+  <div class="container col-sm-offset-1 col-md-offset-2 col-lg-offset-3 ">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
         <span class="sr-only">Toggle navigation</span>
