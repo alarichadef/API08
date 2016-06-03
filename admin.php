@@ -56,11 +56,12 @@ if(isset($_GET['suppr_id'])) {
 				if(isset($_POST['titre'])) {
 					if(!empty($_POST['titre']) && !empty($_POST['contenu_resume']) && !empty($_POST['contenu_long'])) {
 						require_once('connexionBDD.php');
-						$requete = $pdo->prepare('INSERT INTO 2016_articles(id, date, titre, page, contenu_resume, contenu_long) VALUES (NULL, NOW(), :titre, :page, :contenu_resume, :contenu_long)');
+						$requete = $pdo->prepare('INSERT INTO 2016_articles(id, date, titre, page, contenu_resume, contenu_long,video) VALUES (NULL, NOW(), :titre, :page, :contenu_resume, :contenu_long,:lien_youtube)');
 						$requete->bindParam(':titre', $_POST['titre'], PDO::PARAM_STR);
 						$requete->bindParam(':page', $_POST['page'], PDO::PARAM_STR);
 						$requete->bindParam(':contenu_resume', $_POST['contenu_resume'], PDO::PARAM_STR);
 						$requete->bindParam(':contenu_long', $_POST['contenu_long'], PDO::PARAM_STR);
+						$requete->bindParam(':lien_youtube', $_POST['lien_youtube'], PDO::PARAM_STR);
 						$requete->execute();
 						echo 'Ajouté.';
 					} else {
@@ -89,6 +90,10 @@ if(isset($_GET['suppr_id'])) {
 					<div class="form-group">
 						<label for="id">Contenu</label>
 						<textarea class="form-control" rows="3" id="conte" name="contenu_long"><?php echo !empty($_POST['contenu_long']) ? htmlspecialchars($_POST['contenu_long'], ENT_QUOTES, 'UTF-8') : '' ?></textarea>
+					</div>
+					<div class="form-group">
+						<label for="id">Lien youtube</label>
+						<input type="text" class="form-control"  id="yout" name="lien_youtube" value="<?php echo !empty($_POST['lien_youtube']) ? htmlspecialchars($_POST['lien_youtube'], ENT_QUOTES, 'UTF-8') : '' ?>"/>
 					</div>
 					<button type="submit" class="btn btn-action btn-lg">Poster</button>
 				</form>

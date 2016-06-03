@@ -43,7 +43,7 @@
 <?php
 require_once('connexionBDD.php');
 
-$requete = $pdo->prepare('SELECT date, titre, contenu_long FROM 2016_articles WHERE page="u" ORDER BY date DESC LIMIT 5');
+$requete = $pdo->prepare('SELECT id,date,video, titre, contenu_long FROM 2016_articles WHERE page="u" ORDER BY date DESC LIMIT 5');
 $requete->execute();
 ?>
 	<hr class = "margin_bottom margin_top">
@@ -54,10 +54,15 @@ $requete->execute();
 <?php
 while($donnees = $requete->fetchObject()) {
 ?>
+				<a name = <?php echo $donnees->titre; ?> </a>
 					<article>
 						<h1 class="orange text-center"><?php echo $donnees->titre; ?></h1>
 						<hr class = "margin_bottom margin_top">
 						<?php echo $donnees->contenu_long; ?>
+						<hr class = "margin_bottom margin_top">
+								<div class="embed-responsive embed-responsive-16by9">
+											<iframe class="embed-responsive-item" src="<?php echo $donnees->video ?>"></iframe>
+								</div>
 						<hr class = "myhred">
 					</article>
 <?php

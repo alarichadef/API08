@@ -34,17 +34,17 @@
 	<!-- Contenu -->
 	<div class="container">
 		<div class="col-md-offset-2 col-md-8">
-			<?php include('gala_pres.php');?>	
+			<?php include('gala_pres.php');?>
 			<div class="embed-responsive embed-responsive-16by9">
 				<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Vc_0X4DL7kQ"></iframe>
 			</div>
-		</div>	
+		</div>
 	</div>
 
 <?php
 require_once('connexionBDD.php');
 
-$requete = $pdo->prepare('SELECT date, titre, contenu_long FROM 2016_articles WHERE page="g" ORDER BY date DESC LIMIT 5');
+$requete = $pdo->prepare('SELECT id,video,date, titre, contenu_long FROM 2016_articles WHERE page="g" ORDER BY date DESC LIMIT 5');
 $requete->execute();
 ?>
 	<hr class = "margin_bottom margin_top">
@@ -55,10 +55,15 @@ $requete->execute();
 <?php
 while($donnees = $requete->fetchObject()) {
 ?>
+<a name=<?php echo $donnees->id; ?>></a>
 					<article>
 						<h1 class="orange text-center"><?php echo $donnees->titre; ?></h1>
 						<hr class = "margin_bottom margin_top">
 						<?php echo $donnees->contenu_long; ?>
+						<hr class = "margin_bottom margin_top">
+								<div class="embed-responsive embed-responsive-16by9">
+											<iframe class="embed-responsive-item" src=<?php echo $donnees->video ?>></iframe>
+						  	</div>
 						<hr class = "myhred">
 					</article>
 <?php

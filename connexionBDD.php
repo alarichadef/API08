@@ -17,6 +17,7 @@ CREATE TABLE `2016_articles` (
 	`page` ENUM('g', 'u'),
 	`contenu_resume` TEXT,
 	`contenu_long`TEXT,
+	`video`TEXT,
 	PRIMARY KEY (`id`)
 ) AUTO_INCREMENT=1;
 */
